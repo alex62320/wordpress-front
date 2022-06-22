@@ -1,0 +1,40 @@
+/*
+Theme name: twentytwentyone-ChildTheme
+Theme URI: https://github.com/alex62320/ecf-wp-child-theme
+Author: alex62320
+Author URI: https://github.com/alex62320
+Version: 1.0.0
+Template: twentytwentyone 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Oleo+Script&display=swap');
+
+.site {
+	background-color: coral;
+}
+
+.entry-title,.site-title, .site-description {
+	color: darkblue;
+}
+
+.site-title {
+	font-size: 3rem;
+	font-family: 'Oleo Script', cursive;
+}
+
+.site-description {
+	font-size: 2rem;
+	font-family: 'Comic Neue', cursive;
+}
+
+.entry-title {
+	text-align: center;
+}
+
+.site-branding{
+	border: 10px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50px;
+	font-family: 'Comic Neue', cursive;
+}
